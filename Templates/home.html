@@ -1,0 +1,25 @@
+<body style = "background: url(https://images.wallpaperscraft.com/image/daffodils_flowers_white_120493_1920x1080.jpg); background-size: 100% 100% ;"></body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1 style="margin-left:500px;";><u>Rock Paper Scissors</u></h1>
+    <div class="row">
+        <div >
+          <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ1H0m5x_nqTQrXZ-RrF3B2x3hC6UcssxrkONxvvjUiymKIjqFS&usqp=CAU" alt="Snow" width="300" height="300" border="5" hspace="57">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQZlt9Ni6Q1p7llvRJNpn2JFjYmyjQGXbebI8IriJnjEHp_AJGM&usqp=CAU" alt="Forest" width="300" height="300" border="5" hspace="60">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJ3LwJ0MWm7eP47ho2YxzWaLP_pnVfx3xGR6LwGcs2AG7sGLdM&usqp=CAU" alt="Forest" width="300" height="300" border="5" hspace="75">
+          </p>
+          <button onclick="window.location.href = 'result1';" type="button"  style="margin-left: 150px;height: 25px; width: 100px;background-color:darkcyan;color:white;"><b>Rock</b></button>
+          <button onclick="window.location.href = 'result2';"type="button" style="margin-left: 346px;height: 25px; width: 100px;background-color:brown;color:white;"><b>Paper</b></button>
+          <button onclick="window.location.href = 'result3';"type="button" style="margin-left: 339px;height: 25px; width: 100px;background-color:orange;color:white;"><b>Scissors</b></button>
+        </div>
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

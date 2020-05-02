@@ -1,0 +1,17 @@
+<body style = "background: url(https://images.wallpaperscraft.com/image/daffodils_flowers_white_120493_1920x1080.jpg); background-size: 100% 100% ;"></body>
+<html><title>RESULT</title></html>
+
+{% extends "home.html" %}
+{% block content %}
+        <div>
+        <p><h1 style="margin-left:45px;color:white;font-size: 50px">The computer chose "{{ choice }}"You have "{{ result }}" the game</h1></h1></p>
+        
+        
+        </div>
+       
+
+<body>
+        <p><button onclick="window.location.href = 'home';"type="button" style="font-size: 20px;margin-left: 569px;height: 50px; width: 200px;background-color:darkorange;color:white;"><b>PLAY AGAIN!</b></button>
+        <button onclick="window.location.href = 'main';"type="button" style="font-size: 20px;margin-left: 569px;height: 50px; width: 200px;background-color:indianred;color:white;"><b>HOME PAGE</b></button>
+        </p>{% endblock %}
+</body>
